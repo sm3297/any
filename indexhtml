@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>송금받기</title>
+    <title>카카오페이 송금</title>
+
+    <!-- Open Graph (카톡 미리보기) -->
+    <meta property="og:title" content="송금보내요">
+    <meta property="og:description" content="1만원을 보냈어요. 송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요.">
+    <meta property="og:image" content="https://yourdomain.com/fake-kakaopay.png">
+    <meta property="og:url" content="https://yourdomain.com">
+    
     <style>
         body {
             text-align: center;
@@ -30,7 +37,7 @@
     <script>
         function prank() {
             alert("만우절입니다! 속았죠? 😂");
-            window.location.href = "https://www.naver.com"; // 원하는 URL로 변경 가능
+            window.location.href = "https://your-prank-link.com";
         }
     </script>
 
