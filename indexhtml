@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>송금받기</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+        .button {
+            background-color: #ffcc00;
+            border: none;
+            color: black;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>송금받기</h1>
+    <p>1만원을 받으시겠습니까?</p>
+    <button class="button" onclick="prank()">송금 받기</button>
+
+    <script>
+        function prank() {
+            alert("만우절입니다! 속았죠? 😂");
+            window.location.href = "https://www.naver.com"; // 원하는 URL로 변경 가능
+        }
+    </script>
+
+</body>
+</html>
