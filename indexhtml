@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>카카오페이 송금</title>
-
-    <!-- Open Graph (카톡 미리보기) -->
-    <meta property="og:title" content="송금보내요">
-    <meta property="og:description" content="1만원을 보냈어요. 송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요.">
-    <meta property="og:image" content="https://yourdomain.com/fake-kakaopay.png">
-    <meta property="og:url" content="https://yourdomain.com">
-    
+    <meta property="og:image" content="https://example.com/preview-image.jpg"> <!-- 미리보기 이미지 URL -->
+    <meta property="og:title" content="카카오톡 송금받기 화면">
+    <meta property="og:description" content="만우절 장난입니다!">
+    <title>카카오톡 송금받기</title>
     <style>
         body {
-            text-align: center;
             font-family: Arial, sans-serif;
+            text-align: center;
             padding: 50px;
         }
-        .button {
-            background-color: #ffcc00;
-            border: none;
-            color: black;
-            padding: 15px 30px;
-            font-size: 20px;
-            border-radius: 10px;
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
             cursor: pointer;
         }
     </style>
 </head>
 <body>
-
-    <h1>송금받기</h1>
-    <p>1만원을 받으시겠습니까?</p>
-    <button class="button" onclick="prank()">송금 받기</button>
+    <h1>카카오톡 송금받기</h1>
+    <p>이건 만우절 장난이에요! 놀라지 마세요!</p>
+    <button onclick="redirectToAprilFools()">송금하기</button>
 
     <script>
-        function prank() {
-            alert("만우절입니다! 속았죠? 😂");
-            window.location.href = "https://your-prank-link.com";
+        function redirectToAprilFools() {
+            alert("만우절 장난이에요! 이제 구글 사이트로 이동합니다.");
+            // 3초 후 구글 사이트로 리디렉션
+            setTimeout(function() {
+                window.location.href = "https://sites.google.com/view/snuaprilfoolsday/%ED%99%88";
+            }, 3000); // 3초 뒤 이동
         }
     </script>
-
 </body>
 </html>
